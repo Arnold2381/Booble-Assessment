@@ -1,0 +1,13 @@
+ACTIVITY REVERSE ENGINEERING
+
+
+1. Download the apk file from the link
+2. Download the db browser for sqlite from https://sqlitebrowser.org/dl/ and install it
+3. Move the apk to a new folder
+4. Rename the file by changing the extension of the file into .zip
+5. Unzip the folder you get after renaming the file (Marathi Keyboard_v1.5.1_apkpure.com)
+6. Open the folder and move to the assets folder.
+7. Open the manglish_db file using db browser
+8. Now under the Browse Data section select the table word_map_phone
+9. Beside the table name, there is a button for exporting the Database to CSV.
+10. Click on the button, you will get a csv file.
